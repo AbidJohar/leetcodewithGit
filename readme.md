@@ -42,7 +42,37 @@ git commit -m "Added solution for <problem-name>"
 git push origin your-branch-name
 ```
 
-```sh
+### 7️⃣ Merging Your Branch into Main  
+Once your changes are reviewed and approved, you can merge them into the `main` branch:
+
+1. **Switch to the `main` branch**  
+   ```sh
+   git checkout main
+   ```
+
+2. **Sync with the remote repository (ensure it's up to date)**  
+   ```sh
+   git pull origin main
+   ```
+
+3. **Merge your branch into `main`**  
+   ```sh
+   git merge your-branch-name
+   ```
+
+4. **Resolve any merge conflicts (if necessary), then commit the merge**  
+   ```sh
+   git add .
+   git commit -m "Merged your-branch-name into main"
+   ```
+
+5. **Push the updated `main` branch to GitHub**  
+   ```sh
+   git push origin main
+   ```
+
+## 📂 Folder Structure  
+```
 leetcodewithGit/
 │── array&hashing/
 │   ├── containDuplicate/
