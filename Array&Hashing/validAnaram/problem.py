@@ -12,7 +12,7 @@ def Valid_Anm(s,t):
 
     else:
      for i in range(0,length1-1):
-        print
+        
         if(sorting[i]==sortin[i] and length1==length2):
            
            if(sortin==sorting):
@@ -23,13 +23,7 @@ def Valid_Anm(s,t):
     return False      
    
 
-    
-
-       
-
-
-
 
 # display=Valid_Anm("racecar","carrace")
-display=Valid_Anm("x","x")
+display=Valid_Anm("xbbc","xcbb")
 print(display)
