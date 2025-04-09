@@ -1,3 +1,1 @@
- // if(strs.length < 1 ){
-  //    return [[""]];
-  // }
+return result;

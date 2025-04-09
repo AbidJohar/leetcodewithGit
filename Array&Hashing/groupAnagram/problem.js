@@ -2,7 +2,7 @@ function groupAnagrams(strs) {
 
  
 //______________________( hash mapping )_________________
-  let hashMap = {};
+  let map = {};
 
   for (let i = 0; i <= strs.length - 1; i++) {
     let sortedword = strs[i].split("").sort().join("");
@@ -15,7 +15,7 @@ function groupAnagrams(strs) {
     }
   }
   let result = Object.values(hashMap);
-
+  
   return result;
 }
 
